@@ -1,0 +1,9 @@
+package Inkapseling.Opdracht_2;
+
+public class Axe implements Weapon {
+    @Override
+    public void useWeapon(int strength)
+    {
+        System.out.println("Chop an axe and kill "+strength);
+    }
+}
